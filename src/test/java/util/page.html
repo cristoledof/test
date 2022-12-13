@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)https://www.htmlquick.com/es/reference/tags/button-button.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Elemento button (type=button)</title>
+
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Diego Ponce de León">
+    <meta name="description" content="Colección de tutoriales y referencia de HTML5. Simple, completa, accesible, fácil de navegar y gratuita.">
+    <meta name="Keywords" content="HTML5, tutoriales, referencia, tags, gratis, aprender">
+    <link rel="stylesheet" type="text/css" href="./page_files/default.min.css">
+</head>
+<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <body class="ie9"> <![endif]-->
+<!--[if (gt IE 9)]><body class="modern"> <![endif]-->
+<!--[!(IE)]><!-->
+<body class="notIE modern">
+<!--<![endif]-->
+<div id="document">
+    <header>
+        <div id="header-sm"><div></div></div>
+        <nav id="main-menu" class="unselectable">
+            <div id="small-main-menu-button">Ξ</div>
+            <ul id="main-menu-list">
+
+                <li><a href="https://www.htmlquick.com/es/">INICIO</a></li><li><a href="https://www.htmlquick.com/es/tutorials.html">TUTORIALES</a></li><li><a href="https://www.htmlquick.com/es/reference.html">REFERENCIA</a></li><li id="main-menu-elements" class="selected"><a href="https://www.htmlquick.com/es/reference/tags.html">ELEMENTOS</a></li>
+            </ul>
+        </nav>
+        <div id="animation">
+            <div id="animation-background-container">
+                <div id="animation-background"></div>
+                <div class="pics">
+                    <div id="animation-planet"></div>
+                </div>
+                <div id="animation-planet-and-light-ray-container" class=" animate">
+                    <div id="animation-planet-and-light-ray-group" class="pics animate">
+                        <div id="animation-light-ray-left"></div>
+                        <div id="animation-planet-lit"></div>
+                        <div id="animation-light-ray"></div>
+                    </div>
+                </div>
+                <div id="animation-arrow-container">
+                    <div id="animation-arrow" class=" animate"></div>
+                </div>
+            </div>
+            <div class="picr">
+                <div id="animation-star-shine" class=" animate">
+                    <div id="animation-thin-star-shine" class=" animate"></div>
+                    <div id="animation-thick-star-shine" class=" animate"></div>
+                </div>
+            </div>
+        </div>
+        <div id="animation-separator"></div>
+        <nav id="header-sub-bar">
+            <a id="change-language" class="en" href="https://www.htmlquick.com/reference/tags/button-button.html" rel="alternate" hreflang="en" title="Switch to english version"><span></span></a>
+            <div id="breadcrum">
+
+                <a href="https://www.htmlquick.com/es/">Inicio</a>
+                › <a href="https://www.htmlquick.com/es/reference.html">Referencia</a>
+                › <a href="https://www.htmlquick.com/es/reference/tags.html">Elementos</a>
+                › Elemento button (type=button)
+
+            </div>
+        </nav>
+    </header>
+    <main id="content">
+        <article>
+            <header>
+                <h1>Elemento button (<span class="typ">type=button</span>)</h1>
+                <p class="alert"><span class="image"></span>Si no sabes lo que es un elemento o cómo debes usarlo, te recomiendo leer el <a href="https://www.htmlquick.com/tutorials/tags-attributes.html">tutorial "Tags y atributos en <abbr title="Lenguaje de marcas de hypertexto">HTML</abbr>"</a> que puedes encontrar en la sección de <a href="https://www.htmlquick.com/tutorials.html">tutoriales <abbr title="Lenguaje de marcas de hypertexto">HTML</abbr></a>.</p>
+             </header>
+            <section id="examples">
+                <h2>Ejemplos</h2>
+                <p>En el siguiente ejemplo veremos como el elemento <code class="element">button</code> es representado por el navegador. Para este primer ejemplo, agregaremos únicamente texto regular dentro de sus etiquetas.</p>
+
+                <pre class="code-view"><code><span class="line"><span class="number" data-num="1."></span><span class="line-1"><span class="tag">&lt;form<span class="atn"> action=</span><span class="atv">"../../form-result.php"</span>&gt;</span></span></span>
+<span class="line"><span class="number" data-num="2."></span><span class="line-2">  <span class="tag">&lt;p&gt;</span></span></span>
+<span class="line"><span class="number" data-num="3."></span><span class="line-1">    Usuario: <span class="tag">&lt;input<span class="atn"> type=</span><span class="atv">"text"</span><span class="atn"> name=</span><span class="atv">"usuario"</span>&gt;</span></span></span>
+<span class="line"><span class="number" data-num="4."></span><span class="line-2">    <span class="tag">&lt;button<span class="atn"> type=</span><span class="atv">"button"</span>&gt;</span>Estoy en huelga...<span class="tag">&lt;/button&gt;</span></span></span>
+<span class="line"><span class="number" data-num="5."></span><span class="line-1">  <span class="tag">&lt;/p&gt;</span></span></span>
+<span class="line"><span class="number" data-num="6."></span><span class="line-2"><span class="tag">&lt;/form&gt;</span></span></span>
+</code></pre>
+                <div class="code-view">
+                    <div class="code-view-lines">
+                        <form action="https://www.htmlquick.com/es/form-result.php">
+                            <p>
+                                Usuario: <input type="text" name="usuario">
+                                <button type="button">Estoy en huelga...</button>
+                            </p>
+                        </form>
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+
+                <p>Como predicho, el elemento <code class="element">button</code> de tipo "button" no hizo nada al ser presionado, lo cual es exactamente lo que se espera de este tipo de botón. Ahora, asociaremos una acción al botón mediante un programa que cambiará el fondo del párrafo que lo contiene. Para este propósito, usaremos el evento <code class="attribute">onclick</code>.</p>
+
+
+                    <details class="attribute">
+                        <summary>
+                            <h4>type</h4>
+                        </summary>
+
+                        <a href="hagale">hola</a>
+            </section>
+        </article>
+    </main>
+    <footer id="footer">
+
+    </footer>
+</div>
+
+<script async="" src="./page_files/analytics.js.descarga"></script><script type="text/javascript" src="./page_files/default.min.js.descarga"></script>
+
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-420622-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+
+</body></html>
